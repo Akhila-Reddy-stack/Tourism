@@ -1,7 +1,4 @@
-﻿/*:root {
-    font-size: 62.5%;
-}*/
-
+﻿
 body {
     font-family: 'Cabin', sans-serif;
 }
@@ -146,7 +143,6 @@ body {
 }
 
 .logoimg {
-    /* margin-left: 2rem; */
     width: 12vh !important;
     height: 10%;
 }
@@ -154,9 +150,6 @@ body {
 .info-info {
     font-size: 17px;
     font-weight: 700;
-    /* left: 15%;
-    position: relative;
-    width: 140vh; */
 }
 
 .travel {
@@ -173,12 +166,3 @@ body {
 .info-signin {
     display: contents;
 }
-
-/* 
-.info-home {
-    margin-left: -13rem;
-}
-
-.info-bar {
-    margin-left: -1rem;
-} */
