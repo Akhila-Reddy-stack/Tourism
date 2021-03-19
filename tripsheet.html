@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <title>Create Trip</title>
     <link
@@ -18,18 +16,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="../../assets/styles/hotel.css"> -->
-    <!-- <script src="../../assets/scripts/scripts.js" defer></script> -->
     <script src="./assets/scripts/sidebar.js" defer></script>
     <link rel="stylesheet" href="./assets/styles/Navbar.css" type="text/css" />
     <script src="./assets/scripts/createtrip.js"></script>
     <link rel="stylesheet" href="./assets/styles/placeOfInterest.css">
     <link rel="stylesheet" href="./assets/styles/Footer.css">
-
-
-
     <style>
-    
         #map_canvas {
             border: 2px solid red;
             height: 100%;
@@ -37,13 +29,10 @@
             margin: 0rem;
             padding: 1rem;
         }
-
-
         #markers_info .marker {
             cursor: pointer;
         }
     </style>
-
 </head>
 
 <body style="background: none;overflow-x:hidden">
@@ -87,7 +76,6 @@
                     <div class="button">
                         <div class="text navbarselect" id="placestovisit" style="width: 141%;">Places to Visit</div>
                     </div>
-
                     <div class="button">
                         <div class="text" id="travelinfo">Travel Info</div>
                     </div>
@@ -123,12 +111,10 @@
                             <div class="search-again" id="serachid">Search</div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </nav>
     </div>
-
     <div class="trip-from-search">
         <Label>From</Label>
         <div style="max-height: 250px;">
@@ -146,7 +132,6 @@
             </div>
         </div>
     </div>
-
     <div class="trip-to-search">
         <Label>To</Label>
         <div style="max-height: 250px;">
@@ -182,7 +167,6 @@
                     <span class="checkmuse">
                         <div class="cmuseums">Museums</div>
                     </span>
-
                 </div>
                 <div class="row visit-card all marker">
                     <div class="col-md-3">
@@ -200,7 +184,6 @@
                             Perumal Koil Sannathi Street Near Periyar Bus Stand, Periyar, Madurai, Tamil
                             Nadu 625001
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card museum marker">
@@ -218,7 +201,6 @@
                         <div>
                             Collector Office Rd, Tamukkam, Madurai, Tamil Nadu 625020
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card all marker">
@@ -236,8 +218,6 @@
                         <div>
                             Madurai Main, Madurai, Tamil Nadu 625001
                         </div>
-
-
                     </div>
                 </div>
                 <div class="row visit-card park marker">
@@ -255,7 +235,6 @@
                         <div>
                             Alwarpuram, Madurai, Tamil Nadu 625020
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card all marker">
@@ -273,7 +252,6 @@
                         <div>
                             Kazimar St, Periyar, Madurai Main, Madurai, Tamil Nadu 625001
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card park marker">
@@ -291,7 +269,6 @@
                         <div>
                             3/2, Arul Ammal St, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card park marker">
@@ -310,7 +287,6 @@
                             KMC, 814, Poonamallee High Rd, opposite to New Bupathy Nagar, Kilpauk, Chennai,
                             Tamil Nadu 600010
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card all marker">
@@ -329,10 +305,8 @@
                             Sri Sri Radha Mathurapathi Temple, Mani Nagaram Main Rd, Madurai Main, Madurai,
                             Tamil Nadu 625001
                         </div>
-
                     </div>
                 </div>
-
                 <div class="row visit-card museum marker">
                     <div class="col-md-3">
                         <img src="./assets/images/sideNavbar/chennaimu.jfif" style="width: 102%; height: 97%;" />
@@ -348,7 +322,6 @@
                         <div>
                             PANTHIAN ROAD, Egmore, Chennai, Tamil Nadu 600008
                         </div>
-
                     </div>
                 </div>
                 <div class="row visit-card museum marker">
@@ -370,11 +343,9 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4  map">
                 <div id="map_canvas"></div>
             </div>
-
         </div>
     </div>
 
@@ -383,7 +354,6 @@
             <h3 style="font-weight: bold;">Madurai to Chennai - Travel Info</h3>
         </div>
         <div>
-
             <div class="row mp-1">
                 <div class="col-md-4">
                     <img src="./assets/images/sideNavbar/flight.jfif" style="width:78%" />
@@ -409,7 +379,6 @@
                         </div>
                         <div class="col-md-2">
                             <h3><span>&#8377;</span> 4,467</h3>
-
                         </div>
                     </div>
                     <div class="row">
@@ -432,12 +401,10 @@
                         </div>
                         <div class="col-md-2">
                             <h3><span>&#8377;</span>4,467</h3>
-
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="row mp-1">
                 <div class="col-md-4">
                     <img src="./assets/images/sideNavbar/train.jfif" style="width:78%" />
@@ -457,16 +424,13 @@
                             <h6 class="hour"> 06 hr 30 mins</h6>
                             <div class="display:flex;">
                                 <hr class="new2" />
-
                             </div>
-
                         </div>
                         <div class="col-md-2">
                             <h6> 12:30 PM</h6>
                             <p>MDU</p>
                             <h6>MADURAI JN </h6>
                         </div>
-
                     </div>
                     <div class="row">
                         <div class="col-md-2">
@@ -482,16 +446,13 @@
                             <h6 class="hour"> 07 hr 05 mins</h6>
                             <div class="display:flex;">
                                 <hr class="new2" />
-
                             </div>
-
                         </div>
                         <div class="col-md-2">
                             <h6> 02:25 AM</h6>
                             <p>MDU</p>
                             <h6>MADURAI JN </h6>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -510,7 +471,6 @@
                             <div class="dot"></div>
                             <div class="vl"></div>
                             <div class="dot"></div>
-
                         </div>
                         <div class="col-md-7">
                             <div class="fs"> Mattuthavani</div>
@@ -533,7 +493,6 @@
                             <div class="dot"></div>
                             <div class="vl"></div>
                             <div class="dot"></div>
-
                         </div>
                         <div class="col-md-7">
                             <div class="fs"> Mattuthavani</div>
@@ -545,14 +504,9 @@
                             <p class="fs">(Chennai, Tamil Nadu)</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
     <div id="trip-food" style="display:none">
         <div class="row">
@@ -561,7 +515,6 @@
                     <h3 style="font-weight: bold;">Madurai to Chennai - Delicious Foods</h3>
                 </div>
                 <div class="place-desc-grid mt-5 pt-3" style="padding-left: 4rem; height:40%">
-
                     <div class="place-desc-item">
                         <img src="./assets/images/sideNavbar/food1.jpg" alt="place-item">
                         <div class="food-title">
@@ -718,7 +671,6 @@
                             <img src="./assets/images/sideNavbar/ratna.jfif" style="width: 85%;">
                         </div>
                     </div>
-
                 </div>
                 <div class="res-list">
                     <h5 class="food-item"> Buhari </h5>
@@ -735,7 +687,6 @@
                             <img src="./assets/images/sideNavbar/buhari.jfif" style="width: 85%;">
                         </div>
                     </div>
-
                 </div>
                 <div class="res-list">
                     <h5 class="food-item">Southern Spice </h5>
@@ -752,7 +703,6 @@
                             <img src="./assets/images/sideNavbar/spice.jfif" style="width: 85%;">
                         </div>
                     </div>
-
                 </div>
                 <div class="res-list">
                     <h5 class="food-item">Nair Mess </h5>
@@ -768,7 +718,6 @@
                             <img src="./assets/images/sideNavbar/nair.jfif" style="width: 85%;">
                         </div>
                     </div>
-
                 </div>
                 <div class="res-list">
                     <h5 class="food-item">Anandam - Hotel Maris </h5>
@@ -809,7 +758,6 @@
                                 <li> Chicken curry </li>
                                 <li> Rasavid </li>
                                 <li> Sukkubhai Biryani </li>
-
                             </ul>
                         </div>
                         <div class="col-md-7">
@@ -817,151 +765,9 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <!-- <div class="container-fluid p-4 " id="footer" style="display:none;">
-        <div class="row m-0 pt-3 pr-3 pl-3 pb-2">
-            <div class="col">
-                <h5 class="mb-4">SITE MAP</h5>
-                <a href="../../index.html">
-                    <p>Home</p>
-                </a>
-                <a href="../Boat/boathouse.html">
-                    <p>Boating</p>
-                </a>
-                <a href="../TourPackages/TourPackageDetails.html">
-                    <p>Tourism</p>
-                </a>
-                <a href="../Hotel/hotels.html">
-                    <p>Hotels</p>
-                </a>
-                <a href="../Travel/TravelBooking.html">
-                    <p>Bus/Cabs</p>
-                </a>
-
-                <a href="#">
-                    <p>Events</p>
-                </a>
-            </div>
-            <div class="col">
-                <h5 class="mb-4">ADDRESS</h5>
-                <h6 class="mb-3">TamilNadu Tourism Complex</h6>
-                <h4 class="footer-h4 mb-3">No.2 Wallajah Road, Chennai - 600002</h4>
-                <h4 class="footer-h4 mb-3">Phone:044-25333850 to 54</h4>
-                <h4 class="footer-h4 mb-3">Fax:044-25333385, 25333567</h4>
-                <h4 class="footer-h4 mb-3">E-Mail:support@ttdconline.com</h4>
-            </div>
-            <div class="col">
-                <h5 class="mb-4">TOURISM POLICIES</h5>
-                <p>Right Of Information Act</p>
-                <p>Trade Mark Copyright</p>
-                <p>Policy Note 2019-2020 English</p>
-                <p>Policy Note 2019-2020 - Tamil</p>
-                <p>Tourism Announcements</p>
-            </div>
-            <div class="col">
-                <h5 class="mb-4">IMPORTANT LINKS</h5>
-                <p>State Tourism Links</p>
-                <p>Tourism And Cultural Go's</p>
-                <p>State Institute of Hotel Management & Catering Technology, Tiruchirapalli</p>
-                <p>Institute of Management</p>
-            </div>
-            <div class="col">
-                <div>
-                    <h5 class="mb-4">SOCIAL ICONS</h5>
-                    <ul class="share">
-                        <li>
-                            <div class="social-link">
-                                <div class="facebookabsolute">
-                                    <i class="fa fa-facebook facebookicon"></i>
-                                </div>
-                                <div class="nav-label">
-                                    <span>Facebook</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="social-link">
-                                <div class="twitterabsolute">
-                                    <i class="fa fa-twitter twittericon"></i>
-                                </div>
-                                <div class="nav-label">
-                                    <span>Twitter</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="social-link">
-                                <div class="youtubeabsolute">
-                                    <i class="fa fa-youtube youtubeicon"></i>
-                                </div>
-                                <div class="nav-label">
-                                    <span>YouTube</span>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-      
-        <div class="row m-0">
-            <div class="col text-center">
-                <p>
-                    <a href="http://ttdc.in/" target="_blank" class="text-dark footer-brand"><strong>TTDC</strong></a>
-                    &copy; 2020
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Powered by &nbsp;&nbsp;<a href="http://prematix.com/" target="_blank"
-                        class="text-dark footer-brand"><strong>Prematix</strong></a>
-                </p>
             </div>
         </div>
     </div>
-    <div class="side-nav-container">
-        <div class="side-nav-bar" id="sideNavBar" style="z-index: 100000000;">
-            <div class="nav-item-con">
-                <div class="side-nav-item close-btn pt-1">
-                    <span id="closebtn"><i class="fa fa-times"></i></span>
-                </div>
-
-                <div class="side-nav-item"><a href="../Food/FoodMenu.html">Delicious Food</a></div>
-                <div class="side-nav-item"><a href="cultural-events.html">Cultural Events</a></div>
-                <div class="side-nav-item"><a href="placesOfInterest.html">Place of interests</a></div>
-            
-                <div class="side-nav-item"><a href="ttdcInfo.html">TTDC</a></div>
-                <div class="side-nav-item"><a href="AboutUs.html">About Us</a></div>
-                <div class="side-nav-item"><a href="createTrip.html">Create Trip</a></div>
-                
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Ooty, Tamil nadu</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62575.051161588744!2d76.65840200211633!3d11.411850524340798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8bd84b5f3d78d%3A0x179bdb14c93e3f42!2sOoty%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1593844460851!5m2!1sen!2sin"
-                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <div class="overlay" style="z-index: 3000;"></div>
-
 </body>
-
 </html>
