@@ -152,25 +152,33 @@ body {
 }
 
 .info-info {
-    font-size: 14px;
-    left: 8%;
+    font-size: 17px;
+    font-weight: 700;
+    /* left: 15%;
     position: relative;
-    width: 140vh;
+    width: 140vh; */
+}
+
+.travel {
+    color: #2b80dc;
+    margin-right: 10rem;
 }
 
 .info-header {
-    margin-right: 27rem;
+    font-weight: 700;
+    font-size: 1.4rem;
     text-align: center;
 }
 
 .info-signin {
-    margin-left: -15rem;
+    display: contents;
 }
 
+/* 
 .info-home {
-    margin-left: -23rem;
+    margin-left: -13rem;
 }
 
 .info-bar {
     margin-left: -1rem;
-}
+} */
